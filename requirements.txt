@@ -2,3 +2,4 @@ python-dotenv==1.0.1
 pymongo==4.5.0
 pytz==2022.5
 python_fasthtml==0.4.5
+sqlite-minutils==0.1.2
