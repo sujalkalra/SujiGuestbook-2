@@ -1,4 +1,4 @@
 python-dotenv==1.0.1
-python_fasthtml==0.4.5
+pymongo==4.5.0
 pytz==2022.5
-pymongo==4.10.1
+python_fasthtml==0.4.5
