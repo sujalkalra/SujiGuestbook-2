@@ -6,19 +6,19 @@ from dotenv import load_dotenv
 from fasthtml.common import *
 
 
-# Load environment variables
+# this will load environment variables
 load_dotenv()
 
 MAX_NAME_CHAR = 15
 MAX_MESSAGE_CHAR = 500
 TIMESTAMP_FMT = "%Y-%m-%d %I:%M:%S %p %Z"
 
-# Initialize MongoDB client
+# thats how you can create client using using pyMongo
 mongo_client = MongoClient(os.getenv("MONGO_URI"))
 db = mongo_client['sujalkiguestbook']
 collection = db['Forks']
 
-# Create app with a favicon link
+# Create app with a favicon link : change this with your hot and sexy pic
 app, rt = fast_app(
     hdrs=(Link(rel='icon', type='image/favicon.ico', href="/assets/me.ico"),),
 )
@@ -422,9 +422,9 @@ def post(name: str, message: str):
             id="message-list"
         )
 
-# Check MongoDB connection
+# Check MongoDB connection : in the case of error you'll see my error (user defined exception).
 try:
-    mongo_client.server_info()  # Check if the connection is valid
+    mongo_client.server_info()  # this will check if the connection is valid
 except Exception as e:
     raise EnvironmentError(f"Database connection error: {e}")
 
