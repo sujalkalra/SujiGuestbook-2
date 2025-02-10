@@ -195,6 +195,7 @@ def render_content():
         }
 
         button[type="submit"] {
+            border-radius:10px;
             width: 100%;
             height: 45px;
             background: var(--gradient);
