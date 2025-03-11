@@ -10,7 +10,7 @@ from fasthtml.common import *
 load_dotenv()
 
 MAX_NAME_CHAR = 15
-MAX_MESSAGE_CHAR = float('inf')
+MAX_MESSAGE_CHAR = 50000
 TIMESTAMP_FMT = "%Y-%m-%d %I:%M:%S %p %Z"
 
 # thats how you can create client using using pyMongo
