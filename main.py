@@ -775,7 +775,7 @@ def render_content():
 
 @rt('/')
 def get():
-    return Titled(render_content())
+    return Titled("Suji's Guestbook", render_content())
 
 @rt("/submit-message", methods=["post"])
 def post(name: str, message: str):
