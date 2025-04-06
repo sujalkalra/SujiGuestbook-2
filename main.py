@@ -218,30 +218,36 @@ def render_content():
             --scrollbar-track: #343a40;
             --scrollbar-thumb: #4cc9f0;
         }
-        
+
         /* Cosmic Theme */
         [data-theme="cosmic"] {
             --bg-gradient: linear-gradient(120deg, #10002b 0%, #240046 100%);
             --card-bg: #3c096c;
             --card-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
             --card-hover-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
-            --primary: #9d4edd;
-            --secondary: #c77dff;
-            --accent: #e0aaff;
-            --text-primary: #ffffff;
-            --text-secondary: #e0aaff;
+            --primary: #bf7af0;       /* Slightly brighter primary */
+            --secondary: #d8b4ff;     /* Brighter secondary */
+            --accent: #ffffff;        /* Pure white accent for better visibility */
+            --text-primary: #ffffff;  /* Keep white text */
+            --text-secondary: #f2d8ff; /* Much lighter purple, almost white */
             --border: #5a189a;
             --form-bg: rgba(60, 9, 108, 0.9);
             --header-bg: linear-gradient(135deg, #9d4edd, #e0aaff);
             --input-bg: #240046;
             --theme-btn-bg: #240046;
-            --theme-btn-text: #e0aaff;
-            --theme-btn-active-bg: #9d4edd;
-            --theme-btn-active-text: #ffffff;
+            --theme-btn-text: #ffffff; /* Pure white for button text */
+            --theme-btn-active-bg: #c77dff;
+            --theme-btn-active-text: #10002b; /* Dark background color for contrast */
             --footer-bg: rgba(60, 9, 108, 0.8);
             --scrollbar-track: #240046;
-            --scrollbar-thumb: #9d4edd;
+            --scrollbar-thumb: #c77dff;
         }
+
+
+
+
+
+        
         
         /* Base Styles */
         * {
