@@ -222,7 +222,7 @@ def render_content():
         /* Cosmic Theme */
         [data-theme="cosmic"] {
             --bg-gradient: linear-gradient(120deg, #10002b 0%, #240046 100%);
-            --card-bg: #3c096c;
+            --card-bg: #e3d1f5;
             --card-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
             --card-hover-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
             --primary: #bf7af0;       /* Slightly brighter primary */
