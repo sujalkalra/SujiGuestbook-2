@@ -228,8 +228,8 @@ def render_content():
             --primary: #bf7af0;       /* Slightly brighter primary */
             --secondary: #d8b4ff;     /* Brighter secondary */
             --accent: #ffffff;        /* Pure white accent for better visibility */
-            --text-primary: #d8b4ff;  /* Changed from white to light purple for theme consistency */
-            --text-secondary: #f2d8ff; /* Much lighter purple, almost white */
+            --text-primary: #4e008d;  /* Changed from white to light purple for theme consistency */
+            --text-secondary: #4e008d; /* Much lighter purple, almost white */
             --border: #5a189a;
             --form-bg: rgba(60, 9, 108, 0.9);
             --header-bg: linear-gradient(135deg, #9d4edd, #e0aaff);
