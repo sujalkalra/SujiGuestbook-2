@@ -193,6 +193,8 @@ def render_content():
             --footer-bg: rgba(255, 255, 255, 0.8);
             --scrollbar-track: #f1f1f1;
             --scrollbar-thumb: #4361ee;
+
+            --text-username: #212529;
         }
         
         /* Dark Theme */
@@ -217,6 +219,8 @@ def render_content():
             --footer-bg: rgba(45, 45, 45, 0.8);
             --scrollbar-track: #343a40;
             --scrollbar-thumb: #4cc9f0;
+
+            --text-username: #f8f9fa;
         }
 
         /* Cosmic Theme */
@@ -241,6 +245,8 @@ def render_content():
             --footer-bg: rgba(60, 9, 108, 0.8);
             --scrollbar-track: #240046;
             --scrollbar-thumb: #c77dff;
+
+            --text-username: #ffffff;
         }
 
         
@@ -533,7 +539,7 @@ def render_content():
         
         .username {
             font-weight: 600;
-            color: var(--text-primary);
+            color: var(--text-username);
         }
         
         .message-body {
