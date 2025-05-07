@@ -232,7 +232,7 @@ def render_content():
             --primary: #bf7af0;       /* Slightly brighter primary */
             --secondary: #d8b4ff;     /* Brighter secondary */
             --accent: #ffffff;        /* Pure white accent for better visibility */
-            --text-primary: #ffffff;  /* Changed from white to light purple for theme consistency */
+            --text-primary: #bf7af0;  /* Changed from white to light purple for theme consistency */
             --text-secondary: #4e008d; /* Much lighter purple, almost white */
             --border: #5a189a;
             --form-bg: rgba(60, 9, 108, 0.9);
