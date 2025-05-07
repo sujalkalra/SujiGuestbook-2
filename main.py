@@ -204,7 +204,7 @@ def render_content():
             --primary: #4cc9f0;
             --secondary: #4895ef;
             --accent: #3a86ff;
-            --text-primary: #ffffff;
+            --text-primary: #f8f9fa;
             --text-secondary: #adb5bd;
             --border: #495057;
             --form-bg: rgba(45, 45, 45, 0.9);
@@ -228,7 +228,7 @@ def render_content():
             --primary: #bf7af0;       /* Slightly brighter primary */
             --secondary: #d8b4ff;     /* Brighter secondary */
             --accent: #ffffff;        /* Pure white accent for better visibility */
-            --text-primary: #4e008d;  /* Changed from white to light purple for theme consistency */
+            --text-primary: #ffffff;  /* Changed from white to light purple for theme consistency */
             --text-secondary: #4e008d; /* Much lighter purple, almost white */
             --border: #5a189a;
             --form-bg: rgba(60, 9, 108, 0.9);
