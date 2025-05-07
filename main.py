@@ -204,7 +204,7 @@ def render_content():
             --primary: #4cc9f0;
             --secondary: #4895ef;
             --accent: #3a86ff;
-            --text-primary: #f8f9fa;
+            --text-primary: #ffffff;
             --text-secondary: #adb5bd;
             --border: #495057;
             --form-bg: rgba(45, 45, 45, 0.9);
