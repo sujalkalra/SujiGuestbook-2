@@ -398,7 +398,7 @@ def render_content():
             resize: vertical;
             transition: all 0.3s ease;
             background: var(--input-bg);
-            color: var(--text-primary);
+            color: var(--text-username);
         }
         
         .message-input:focus {
@@ -539,7 +539,7 @@ def render_content():
         
         .username {
             font-weight: 600;
-            color: var(--text-username);
+            color: var(--text-primary);
         }
         
         .message-body {
