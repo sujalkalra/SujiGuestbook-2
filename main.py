@@ -742,19 +742,9 @@ def render_content():
     # Footer component
     footer = Div(
         P("Made with ", Span("❤️", _class="heart"), " by ", 
-          A("Sujal", href="https://github.com/sujalkalra", target="_blank")),
-        Div(
-            A(I(_class="fab fa-github"), " GitHub", 
-              href="https://github.com/sujalkalra", 
-              target="_blank", 
-              _class="author-link"),
-            A(I(_class="fas fa-code"), " Try New Version", 
-              href="https://sujiguestbook2.vercel.app", 
-              target="_blank", 
-              _class="author-link"),
-            _class="author-links"
-        ),
-        _class="footer"
+          A("Sujal", href="https://github.com/sujalkalra", target="_blank")
+         )
+        , _class="footer"
     )
 
     # User profile image
